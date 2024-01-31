@@ -20,13 +20,29 @@ body {
     height: 100vh;
 }
 
+/* Ações de inicialização */
+
+#Console-M-C {
+    width: 50px;
+    display: none;
+}
+
 .ligado {
     display: none;
 }
 
+.fundoClaro {
+    background-image: radial-gradient(circle, #CFCFCF, #989898) !important;
+}
+
+.Letra-MClaro{
+    color: var(--letra-modo-claro) !important;
+}
+
 :root {
+    --letra-modo-claro: #222222;
     --cor-primaria: #373232;
-    --cor-nav: #4c454570;
+    --cor-nav: #262323;
     --FonteDecorativa: 'FonteDecorativa', sans-serif;
 }
 
@@ -36,6 +52,10 @@ body {
     display: flex;
     width: 100%;
     justify-content: end;
+}
+
+.Borda-Colorida {
+    background:  linear-gradient(to right, #004AAD, #CB6CE6);
 }
 
 /* Primeira Parte */
@@ -57,22 +77,28 @@ section.Primeira-Parte > div > header {
     align-items: center;
 }
 
-section.Primeira-Parte > div > header > nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+section.Primeira-Parte > div > header > div {
     width: 80%;
-    background-color: var(--cor-nav);
+    height: 55px;
     margin-top: 5px;
     border-radius: 20px;
 }
 
+ section.Primeira-Parte > div > header > div > nav {
+    width: calc(100% - 4px);
+    height: 51px;
+    transform: translate(2px, 2px);
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--cor-nav);
+} 
 
-section.Primeira-Parte > div > header > nav > a > img {
-    width: 80%;
+
+section.Primeira-Parte > div > header > div > nav > a > img {
+    width: 50px;
 }
 
-section.Primeira-Parte > div > header > nav > a > img#curriculo{
+section.Primeira-Parte > div > header > div > nav > a > img#curriculo{
     transform: translateY(2px);
 }
 
@@ -93,7 +119,7 @@ section.Primeira-Parte > div > div > button {
 
 section.texto {
     position: absolute;
-    top: 40%;
+    top: calc(40% - 10px);
     left: calc(50% - 140px);
 }
 
