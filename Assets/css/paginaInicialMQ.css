@@ -137,7 +137,7 @@
     }
 
     div.Horizontal-Fim{
-        width: calc(80% - 350px)  !important;
+        width: calc(80% - 175px)  !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -162,7 +162,7 @@
     }
         section.texto {
             top: calc(40% - 100px);
-            left: calc(50% - 300px);
+            left: calc(50% - 350px);
             width: 750px;
         }
 
