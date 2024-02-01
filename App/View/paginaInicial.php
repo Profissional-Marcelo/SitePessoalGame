@@ -15,15 +15,15 @@
             <header>
             <div id="Borda-Colorida">
                 <nav>
-                        <a href="https://github.com/Profissional-Marcelo" class="Icones-Modo-Escuro"><img class="icones" src="https://img.icons8.com/nolan/256/github.png" alt="github"/></a>
-                        <a href="" class="Icones-Modo-Escuro"><img class="icones" src="https://img.icons8.com/nolan/256/open-resume.png" alt="curriculo" id="curriculo"></a>
-                        <a href="" class="Icones-Modo-Escuro"><img class="icones" src="https://img.icons8.com/nolan/256/linkedin.png" alt="linkedin"></a>
-                        <a href="" class="Icones-Modo-Escuro"><img src="https://img.icons8.com/nolan/256/instagram-new.png" alt="instagram"></a>
+                        <a href="https://github.com/Profissional-Marcelo" class="Icones-Modo-Escuro" target="_blank"><img class="icones" src="https://img.icons8.com/nolan/256/github.png" alt="github"/></a>
+                        <a href="" class="Icones-Modo-Escuro" target="_blank"><img class="icones" src="https://img.icons8.com/nolan/256/open-resume.png" alt="curriculo" id="curriculo"></a>
+                        <a href="" class="Icones-Modo-Escuro" target="_blank"><img class="icones" src="https://img.icons8.com/nolan/256/linkedin.png" alt="linkedin"></a>
+                        <a href="" class="Icones-Modo-Escuro" target="_blank"><img src="https://img.icons8.com/nolan/256/instagram-new.png" alt="instagram"></a>
                         <!-- Icones no modo claro -->
-                        <a href="" class="Icones-Modo-Claro"><img id="githubMC" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-github-community-for-software-building-and-testing-online-logo-shadow-tal-revivo.png" alt="external-github-community-for-software-building-and-testing-online-logo-shadow-tal-revivo"></a>
-                        <a href="" class="Icones-Modo-Claro"><img id="curriculoMC" src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/512/external-curriculum-management-kiranshastry-solid-kiranshastry-1.png" alt="external-curriculum-management-kiranshastry-solid-kiranshastry-1"></a>
-                        <a href="" class="Icones-Modo-Claro"><img id="linkedinMC" src="https://img.icons8.com/glyph-neue/256/linkedin.png" alt="linkedin"></a>
-                        <a href="" class="Icones-Modo-Claro"><img id="instagramMC" src="https://img.icons8.com/glyph-neue/256/instagram-new--v1.png" alt="instagram"></a>
+                        <a href="" class="Icones-Modo-Claro" target="_blank"><img id="githubMC" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-github-community-for-software-building-and-testing-online-logo-shadow-tal-revivo.png" alt="external-github-community-for-software-building-and-testing-online-logo-shadow-tal-revivo"></a>
+                        <a href="" class="Icones-Modo-Claro" target="_blank"><img id="curriculoMC" src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/512/external-curriculum-management-kiranshastry-solid-kiranshastry-1.png" alt="external-curriculum-management-kiranshastry-solid-kiranshastry-1"></a>
+                        <a href="" class="Icones-Modo-Claro" target="_blank"><img id="linkedinMC" src="https://img.icons8.com/glyph-neue/256/linkedin.png" alt="linkedin"></a>
+                        <a href="" class="Icones-Modo-Claro" target="_blank"><img id="instagramMC" src="https://img.icons8.com/glyph-neue/256/instagram-new--v1.png" alt="instagram"></a>
                 </nav>
             </div> 
             </header>
