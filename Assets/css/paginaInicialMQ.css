@@ -1,0 +1,191 @@
+
+@media (min-width: 700px) and (max-width: 1024px) {
+
+
+    section.Primeira-Parte > div > div > button > img {
+        width: 100px;
+    }
+
+    section.Primeira-Parte > div > header > div > nav {
+        height: 86px;
+    } 
+
+    section.texto {
+        top: calc(40% - 50px);
+        left: calc(50% - 285px);
+        width: 600px;
+    }
+    
+    div.computador{
+        width: 100%;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-items: center !important;
+        align-items: center !important;
+    }
+
+    section.Primeira-Parte > div > header {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        margin-top: 0px;
+    }
+
+    section.Primeira-Parte > div > header > div {
+        width: 350px;
+        height: 80px;
+    }
+
+    div.Horizontal-Fim{
+        width: 40% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+
+
+   
+
+    section.Primeira-Parte > div > header > div > nav > a > img {
+        width: 80px;
+    }
+
+    #Console-M-C {
+        width: 68px;
+    }
+    
+    #githubMC{
+        
+        width: 56px;
+    }
+    
+    #linkedinMC{
+        width: 71px;
+        transform: translateY(1px);
+    }
+    
+    #curriculoMC{
+        width: 60px;
+    }
+
+    section.Primeira-Parte > section.texto > p {
+        font-size: 20px;
+        
+        }
+
+        section.Primeira-Parte > section.texto > h1 {
+            font-size: 90px; 
+    }
+
+    section.Primeira-Parte > section.texto > a > img {
+        width: 120px;
+    }
+    
+    #Console-M-C {
+        width: 100px;
+    }
+
+    div > div > button > img {
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 1025px) {
+
+    #Console-M-C {
+        width: 68px;
+    }
+    
+    #githubMC{
+        
+        width: 56px;
+    }
+    
+    #linkedinMC{
+        width: 71px;
+        transform: translateY(1px);
+    }
+    
+    #curriculoMC{
+        width: 60px;
+    }
+
+
+
+    div.computador{
+        width: 100%;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-items: center !important;
+        align-items: center !important;
+    }
+    
+    section.Primeira-Parte > div > header {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        margin-top: 0px;
+    }
+
+    section.Primeira-Parte > div > header > div {
+        width: 350px;
+        height: 80px;
+    }
+
+    div.Horizontal-Fim{
+        width: calc(80% - 350px)  !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+
+    section.Primeira-Parte > div > div > button > img {
+        width: 70px;
+    }
+
+
+    section.Primeira-Parte > div > header > div > nav > a > img {
+        width: 70px;
+    }
+
+    section.Primeira-Parte > section.texto > p {
+        font-size: 25px;
+        }
+
+        section.Primeira-Parte > section.texto > h1 {
+            font-size: 115px; 
+    }
+        section.texto {
+            top: calc(40% - 100px);
+            left: calc(50% - 300px);
+            width: 750px;
+        }
+
+        section.Primeira-Parte > section.texto > a > img {
+            width: 150px;
+            margin-left: 50px;
+        }
+
+        #Console-M-C {
+            width: 130px;
+        }
+
+        section.Primeira-Parte > div > header > div {
+            width: 350px;
+            height: 80px;
+            margin-top: 10px;
+        }
+
+        section.Primeira-Parte > div > header > div > button {
+            margin-top: 10px;
+        }
+        section.Primeira-Parte > div > header > div > nav {
+            padding-left: 7px;
+            height: 76px;
+        } 
+}
