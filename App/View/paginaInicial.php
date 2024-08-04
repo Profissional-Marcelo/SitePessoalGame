@@ -41,6 +41,21 @@
             <p>tenho 20 anos e atuo como desenvolvedor de jogos e web</p>
         </section>
     </section>
+    <section class="Segunda-Parte">
+        <div class="container">
+            <h2 class="object" data-value="3">Space<br><span>Background</span></h2>
+            <img src="../../Assets/img/sessao-espaco/saturno.png" alt="saturno" class="object" data-value="-2" id="saturno">
+            <img src="../../Assets/img/sessao-espaco/ovni.png" alt="ovni" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/planetaAzul.png" alt="planeta azul" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/marte.png" alt="marte" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/planetaRoxo.png" alt="planetaRoxo" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/planetaRosa.png" alt="planeta rosa" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/saturno.png" alt="saturno" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/foguete.png" alt="foguete" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/netuno.png" alt="netuno" class="object" data-value="">
+            <img src="../../Assets/img/sessao-espaco/diamante.png" alt="diamante" class="object" data-value="3">
+        </div>
+    </section>
     <!-- <a href="https://www.marcelorei.com.br" class="Botao-Home"><img src="https://img.icons8.com/glyph-neue/64/home--v1.png" alt="home--v1"/></a>
     <script src="../../Assets/js/paginaInicial.js"></script>
     <a href="https://www.marcelorei.com.br" class="Botao-HomeMC"><img src="https://img.icons8.com/glyph-neue/64/home--v1.png" alt="home--v1"/></a>  -->
