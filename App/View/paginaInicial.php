@@ -42,7 +42,13 @@
         </section>
     </section>
     <section class="Segunda-Parte">
-        
+        <div class="plataformas">
+            <div class="plataforma-scratch">
+                <a href="#">
+                <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/scratch.png" alt="scratch"/>
+                </a>
+            </div>
+        </div>
     </section>
     <!-- <a href="https://www.marcelorei.com.br" class="Botao-Home"><img src="https://img.icons8.com/glyph-neue/64/home--v1.png" alt="home--v1"/></a>
     <script src="../../Assets/js/paginaInicial.js"></script>
