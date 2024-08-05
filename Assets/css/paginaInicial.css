@@ -230,13 +230,23 @@ section.Segunda-Parte > div.plataformas {
 }
 
 section.Segunda-Parte > div.plataformas > div {
-    display: block;
-    margin-bottom: 14px;
-    padding: 10px 15px 10px 15px;
-    height: 150px;
+  height: 160px;
 }
 
-section.Segunda-Parte > div.plataformas > div:hover{
+/* section.Segunda-Parte > div.plataformas > div:hover {
+    background:  linear-gradient(to right, #004AAD, #CB6CE6);
+} */
+
+section.Segunda-Parte > div.plataformas > div > div {
+    display: block;
+height: 158px;
+transform: translate(1px, 1px);
+width: calc(100% - 2px);
+padding: 10px 15px 10px 15px;
+margin-bottom: 14px;
+}
+
+section.Segunda-Parte > div.plataformas > div > div:hover{
     background-color: #292626;
     
 }

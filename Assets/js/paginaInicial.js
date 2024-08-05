@@ -21,6 +21,18 @@ document.addEventListener("DOMContentLoaded", function() {
         BordaColorida.classList.remove("Borda-Colorida");
     })
 
+    const borderColor = document.querySelector(".bordas");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
     // Funções
 
         // Modo Claro
