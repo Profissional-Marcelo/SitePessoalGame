@@ -232,6 +232,13 @@ section.Segunda-Parte > div.plataformas {
 section.Segunda-Parte > div.plataformas > div {
     display: block;
     margin-bottom: 14px;
+    padding: 10px 15px 10px 15px;
+    height: 150px;
+}
+
+section.Segunda-Parte > div.plataformas > div:hover{
+    background-color: #292626;
+    
 }
 
 
