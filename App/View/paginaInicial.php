@@ -42,11 +42,41 @@
         </section>
     </section>
     <section class="Segunda-Parte">
+        <div class="texto">
+            <h1>Plataformas que utilizo</h1>
+            <p>Pressione sobre a plataforma para visualizar os projetos!</p>
+            <img src="https://img.icons8.com/doodle/96/oil-lamp.png" alt="oil-lamp"/>
+        </div>
         <div class="plataformas">
             <div class="plataforma-scratch">
                 <a href="#">
-                <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/scratch.png" alt="scratch"/>
+                <img src="https://img.icons8.com/nolan/512/scratch.png" alt="scratch"/>
                 </a>
+                <p>SCRATCH</p>
+            </div>
+            <div class="plataforma-unity">
+                <a href="#">
+                <img src="https://img.icons8.com/nolan/512/unity.png" alt="unity"/>
+                </a>
+                <p>UNITY</p>
+            </div>
+            <div class="plataforma-java">
+                <a href="#">
+                <img src="https://img.icons8.com/nolan/512/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
+                </a>
+                <p>Java</p>
+            </div>
+            <div class="plataforma-roblox">
+                <a href="#">
+                <img src="https://img.icons8.com/nolan/512/roblox.png" alt="roblox"/>
+                </a>
+                <p>Roblox</p>
+            </div>
+            <div class="plataforma-javascript">
+                <a href="#">
+                <img src="https://img.icons8.com/nolan/512/javascript-logo.png" alt="javascript-logo"/>
+                </a>
+                <p>JavaScript</p>
             </div>
         </div>
     </section>

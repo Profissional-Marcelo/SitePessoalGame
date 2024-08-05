@@ -196,5 +196,52 @@ section.Segunda-Parte {
     background-color: #312D2D;
    background-size: cover;
    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: top;
+   align-items: center;
 }
+
+section.Segunda-Parte > div.texto {
+height: 25vh;
+text-align: center;
+}
+
+section.Segunda-Parte > div.texto > img {
+    cursor: pointer;
+    width: 50px;
+    margin: 10px;
+}
+
+section.Segunda-Parte > div.texto > h1 {
+    margin-top: 20px;
+    color: white;
+   
+    font-size: 20px;
+}
+
+section.Segunda-Parte > div.plataformas {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+section.Segunda-Parte > div.plataformas > div {
+    display: block;
+    margin-bottom: 14px;
+}
+
+
+section.Segunda-Parte > div.plataformas p{
+    font-family: 'FonteDecorativa'; 
+    color: white;
+}
+
+section.Segunda-Parte > div.plataformas img{
+    width: 100px;
+}
+
 
