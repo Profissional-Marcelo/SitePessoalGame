@@ -21,7 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
         BordaColorida.classList.remove("Borda-Colorida");
     })
 
-    const borderColor = document.querySelector(".bordas");
+    //Mouse enter em cada borda individual
+
+
+
+    const borderColor = document.querySelector(".borda1");
     // Adicionando evento de mouse enter e mouse leave ao botão
     borderColor.addEventListener("mouseenter", function() {
         const bordas = document.querySelector(".border-color");   
@@ -30,6 +34,54 @@ document.addEventListener("DOMContentLoaded", function() {
 
     borderColor.addEventListener("mouseleave", function() {
         const bordas = document.querySelector(".border-color");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor2 = document.querySelector(".borda2");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor2.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color2");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor2.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color2");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor3 = document.querySelector(".borda3");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor3.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color3");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor3.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color3");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor4 = document.querySelector(".borda4");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor4.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color4");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor4.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color4");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor5 = document.querySelector(".borda5");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor5.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color5");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor5.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color5");   
         bordas.classList.remove("Borda-Colorida");
     })
 

@@ -95,6 +95,7 @@
 
 @media (min-width: 1025px) {
 
+
     #Console-M-C {
         width: 68px;
     }
@@ -124,7 +125,7 @@
     }
     
     section.Primeira-Parte > div > header {
-        width: 100%;
+        width: calc(100% - 25px);
         display: flex;
         justify-content: start;
         align-items: end;

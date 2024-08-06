@@ -49,39 +49,39 @@
         </div>
         <div class="plataformas">
             <div class="border-color">
-                <div class="plataforma-scratch bordas">
+                <div class="plataforma-scratch borda1">
                     <a href="#">
                     <img src="https://img.icons8.com/nolan/512/scratch.png" alt="scratch"/>
                     </a>
                     <p>SCRATCH</p>
                 </div>
             </div>
-            <div class="border-color">
-                <div class="plataforma-unity bordas">
+            <div class="border-color2">
+                <div class="plataforma-unity borda2">
                     <a href="#">
                     <img src="https://img.icons8.com/nolan/512/unity.png" alt="unity"/>
                     </a>
                     <p>UNITY</p>
                 </div>
             </div>
-            <div class="border-color">
-                <div class="plataforma-java bordas">
+            <div class="border-color3">
+                <div class="plataforma-java borda3">
                     <a href="#">
                     <img src="https://img.icons8.com/nolan/512/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
                     </a>
                     <p>Java</p>
                 </div>
             </div>
-            <div class="border-color">
-                <div class="plataforma-roblox bordas">
+            <div class="border-color4">
+                <div class="plataforma-roblox borda4">
                     <a href="#">
                     <img src="https://img.icons8.com/nolan/512/roblox.png" alt="roblox"/>
                     </a>
                     <p>Roblox</p>
                 </div>
             </div>
-            <div class="border-color">
-                <div class="plataforma-javascript bordas">
+            <div class="border-color5">
+                <div class="plataforma-javascript borda5">
                     <a href="#">
                     <img src="https://img.icons8.com/nolan/512/javascript-logo.png" alt="javascript-logo"/>
                     </a>
