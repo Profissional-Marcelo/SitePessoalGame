@@ -221,7 +221,7 @@ section.Segunda-Parte > div.texto > h1 {
 }
 
 section.Segunda-Parte > div.plataformas {
-    width: 90%;
+    width: 100%;
     height: 270px;
     display: flex;
     flex-flow: row wrap;
@@ -231,7 +231,7 @@ section.Segunda-Parte > div.plataformas {
 
 section.Segunda-Parte > div.plataformas > div {
   height: 160px;
-  flex: auto;
+  flex-basis: 160px;
 }
 
 /* section.Segunda-Parte > div.plataformas > div:hover {
