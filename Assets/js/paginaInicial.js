@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     nav.addEventListener("mouseenter", function() {
         const BordaColorida = document.querySelector("#Borda-Colorida");   
         BordaColorida.classList.add("Borda-Colorida");
+        
     })
 
     nav.addEventListener("mouseleave", function() {
@@ -109,6 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.style.display = "none";
             consoleMC.style.display = "inline-block";
             nav.style.backgroundColor = "#CCCCCA";
+            
             // botaoHome.style.display = "none";
             // botaoHomeMC.style.display = "inline-block";
             iconesME.forEach(elementoIconesME => {
