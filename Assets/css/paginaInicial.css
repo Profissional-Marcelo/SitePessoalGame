@@ -21,6 +21,9 @@ body {
     height: 100vh;
 }
 
+h1 {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.401);
+}
 
 /* Ações de inicialização */
 
@@ -130,6 +133,7 @@ section.Primeira-Parte > div > header > div {
 }
 
  section.Primeira-Parte > div > header > div > nav {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.394);
     width: calc(100% - 4px);
     height: 51px;
     transform: translate(2px, 2px);
@@ -141,6 +145,7 @@ section.Primeira-Parte > div > header > div {
 
 section.Primeira-Parte > div > header > div > nav > a > img {
     width: 50px;
+    
 }
 
 section.Primeira-Parte > div > header > div > nav > a > img#curriculo{
@@ -164,6 +169,7 @@ section.Primeira-Parte > div > div > button {
 
 section.Primeira-Parte > div > div > button > img {
     width: 60px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.366));
 }
 
 section.texto {
@@ -190,6 +196,7 @@ section.Primeira-Parte > section.texto > h1 {
 section.Primeira-Parte > section.texto > a > img {
     margin-left: 12px;
     width: 60px;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.387));
 }
 
 section.Segunda-Parte {

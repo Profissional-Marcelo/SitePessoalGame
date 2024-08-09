@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Games</title>
+    <meta name="description" content="Portifólio do desenvolvedor de games e web full stack, Marcelo Henrique Cornelis Rei.">
     <link rel="stylesheet" href="../../Assets/css/paginaInicial.css">
     <link rel="stylesheet" href="../../Assets/css/paginaInicialMQ.css">
 </head>
