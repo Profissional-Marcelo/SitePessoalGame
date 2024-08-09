@@ -1,9 +1,32 @@
 
 @media (min-width: 700px) and (max-width: 1024px) {
 
+    section.Primeira-Parte > div.computador{
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        height: 125px;
+    }
+
+    section.Primeira-Parte > div > div {
+        display: flex;
+        width: calc(50% - 150px);
+        
+    }
+
+    section.Primeira-Parte > div > header {
+        width: calc(50% + 150px);
+        flex-flow: row nowrap;
+        display: flex;
+        justify-content: end;
+        align-items: start;
+        height: 100px;
+    }
 
     section.Primeira-Parte > div > div > button > img {
         width: 100px;
+        
     }
 
     section.Primeira-Parte > div > header > div > nav {
@@ -15,38 +38,12 @@
         left: calc(50% - 285px);
         width: 600px;
     }
-    
-    div.computador{
-        width: 100%;
-        display: flex !important;
-        flex-direction: row !important;
-        justify-items: center !important;
-        align-items: center !important;
-    }
-
-    section.Primeira-Parte > div > header {
-        width: 100%;
-        display: flex;
-        justify-content: start;
-        align-items: end;
-        margin-top: 0px;
-    }
 
     section.Primeira-Parte > div > header > div {
         width: 350px;
         height: 80px;
     }
 
-    div.Horizontal-Fim{
-        width: 40% !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-    }
-
-
-
-   
 
     section.Primeira-Parte > div > header > div > nav > a > img {
         width: 80px;
