@@ -60,7 +60,21 @@ section.Primeira-Parte > header > div {
     height: 60px;
 }
 
+section.Primeira-Parte > header > nav > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 224px;
+    height: 64px;
+}
+
 section.Primeira-Parte > header > nav > div > menu {
+    height: 60px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor-nav);
     border-radius: 20px;
     padding: 5px;
