@@ -1,0 +1,89 @@
+@media (min-width: 700px) and (max-width: 1024px) {
+    section.Primeira-Parte >  header {
+        flex-flow: row nowrap;
+    }
+
+    section.Primeira-Parte > header > nav {
+        justify-content: end;
+        width: calc(50% + 150px);
+        height: 100px;
+    }
+
+    section.Primeira-Parte > header > div {
+        justify-content: center;
+        align-items: end;
+        height: 80px;
+        width: calc(50% - 150px);
+    }
+
+    section.Primeira-Parte > header > nav > div {
+        height: 82px;
+        width: 302px;
+    }
+
+
+    section.Primeira-Parte > header > nav > div > menu {
+        height: 80px;
+        width: 300px;
+    }
+
+    section.Primeira-Parte > header > nav > div > menu > a > img {
+        width: 65px;
+    }
+
+    section.Primeira-Parte > header > div {
+        margin-top: 15px;
+        align-self: flex-start;
+        height: 80px;
+    }
+
+    section.Primeira-Parte > header > div.lampada > button > img {
+        width: 65px;
+    }
+}
+
+@media (min-width: 1025px) {
+    section.Primeira-Parte >  header {
+        flex-flow: row nowrap;
+    }
+
+    section.Primeira-Parte > header > nav {
+        justify-content: end;
+        width: calc(50% + 150px);
+        height: 100px;
+    }
+
+    section.Primeira-Parte > header > div {
+        justify-content: center;
+        align-items: end;
+        height: 80px;
+        width: calc(50% - 150px);
+    }
+
+    section.Primeira-Parte > header > nav > div {
+        height: 82px;
+        width: 302px;
+    }
+
+
+    section.Primeira-Parte > header > nav > div > menu {
+        height: 80px;
+        width: 300px;
+    }
+
+    section.Primeira-Parte > header > nav > div > menu > a > img {
+        width: 65px;
+    }
+
+    section.Primeira-Parte > header > div {
+        margin-top: 15px;
+        align-self: flex-start;
+        height: 80px;
+    }
+
+    section.Primeira-Parte > header > div.lampada > button > img {
+        width: 65px;
+    }
+
+    
+}
