@@ -1,59 +1,154 @@
+
+// Carregamento do DOM
 document.addEventListener("DOMContentLoaded", function() {
-    // Variáveis
-    const desligado = document.getElementById("desligado");
-    const ligado = document.getElementById("ligado");
-    const nav = document.querySelector("nav");
-    const sectionPrimeiraParte = document.querySelector("section.Primeira-Parte");
-    const h1 = document.querySelectorAll("h1");
-    const p = document.querySelectorAll("p");
-    const console = document.querySelector("#console");
-    const consoleMC = document.querySelector("#Console-M-C");
-    const iconesME = document.querySelectorAll(".Icones-Modo-Escuro");
-    const iconesMC = document.querySelectorAll(".Icones-Modo-Claro");
-    
-    // Função para alternar classes de bordas coloridas
-    function alternarBordaColorida(elemento, classe) {
-        elemento.addEventListener("mouseenter", () => classe.classList.add("Borda-Colorida"));
-        elemento.addEventListener("mouseleave", () => classe.classList.remove("Borda-Colorida"));
-    }
+    // Váriaveis
+    let desligado = document.getElementById("desligado");
+    let ligado = document.getElementById("ligado");
 
-    // Eventos de bordas
-    const bordas = [
-        { trigger: ".borda1", target: ".border-color" },
-        { trigger: ".borda2", target: ".border-color2" },
-        { trigger: ".borda3", target: ".border-color3" },
-        { trigger: ".borda4", target: ".border-color4" },
-        { trigger: ".borda5", target: ".border-color5" },
-    ];
-
-    bordas.forEach(({ trigger, target }) => {
-        const triggerElement = document.querySelector(trigger);
-        const targetElement = document.querySelector(target);
-        alternarBordaColorida(triggerElement, targetElement);
-    });
-
-    // Evento na navbar
-    alternarBordaColorida(nav, nav);
-
-    // Função para alternar o modo claro/escuro
-    function modoClaro() {
-        const isLigado = getComputedStyle(ligado).display === "none";
-        
-        ligado.style.display = isLigado ? "block" : "none";
-        desligado.style.display = isLigado ? "none" : "block";
-        sectionPrimeiraParte.classList.toggle("fundoClaro", isLigado);
-        console.style.display = isLigado ? "none" : "inline-block";
-        consoleMC.style.display = isLigado ? "inline-block" : "none";
-        nav.style.backgroundColor = isLigado ? "#CCCCCA" : "#363232";
-        
-        iconesME.forEach(icon => icon.style.display = isLigado ? "none" : "inline-block");
-        iconesMC.forEach(icon => icon.style.display = isLigado ? "inline-block" : "none");
-
-        h1.forEach(element => element.classList.toggle("Letra-MClaro", isLigado));
-        p.forEach(element => element.classList.toggle("Letra-MClaro", isLigado));
-    }
-
-    // Eventos dos botões
+    // Eventos
     desligado.addEventListener("click", modoClaro);
     ligado.addEventListener("click", modoClaro);
+
+    const nav = document.querySelector("nav");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    nav.addEventListener("mouseenter", function() {
+        const BordaColorida = document.querySelector("#Borda-Colorida");   
+        BordaColorida.classList.add("Borda-Colorida");
+        
+    })
+
+    nav.addEventListener("mouseleave", function() {
+        const BordaColorida = document.querySelector("#Borda-Colorida");   
+        BordaColorida.classList.remove("Borda-Colorida");
+    })
+
+    //Mouse enter em cada borda individual
+
+
+
+    const borderColor = document.querySelector(".borda1");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor2 = document.querySelector(".borda2");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor2.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color2");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor2.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color2");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor3 = document.querySelector(".borda3");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor3.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color3");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor3.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color3");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor4 = document.querySelector(".borda4");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor4.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color4");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor4.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color4");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    const borderColor5 = document.querySelector(".borda5");
+    // Adicionando evento de mouse enter e mouse leave ao botão
+    borderColor5.addEventListener("mouseenter", function() {
+        const bordas = document.querySelector(".border-color5");   
+        bordas.classList.add("Borda-Colorida");
+    })
+
+    borderColor5.addEventListener("mouseleave", function() {
+        const bordas = document.querySelector(".border-color5");   
+        bordas.classList.remove("Borda-Colorida");
+    })
+
+    // Funções
+
+        // Modo Claro
+    function modoClaro() {
+        // Sempre que eu quiser pegar o estilo de um elemento de maneira exeterna, utilizo o getComputedStyle(elemento).propriedade
+        var ligadoDisplay = getComputedStyle(ligado).display;
+        const sectionPrimeiraParte = document.querySelector("section.Primeira-Parte");
+        const h1 = document.querySelectorAll("h1");
+        const p = document.querySelectorAll("p");
+        const console = document.querySelector("#console");
+        const consoleMC = document.querySelector("#Console-M-C");
+        const nav = document.querySelector("nav");
+        const iconesME = document.querySelectorAll(".Icones-Modo-Escuro");
+        const iconesMC = document.querySelectorAll(".Icones-Modo-Claro");
+        // const botaoHome = document.querySelector(".Botao-Home");
+        // const botaoHomeMC = document.querySelector(".Botao-HomeMC");
+
+        if (ligadoDisplay === "none") {
+            ligado.style.display = "block";
+            desligado.style.display = "none";
+            sectionPrimeiraParte.classList.add("fundoClaro");
+            console.style.display = "none";
+            consoleMC.style.display = "inline-block";
+            nav.style.backgroundColor = "#CCCCCA";
+            
+            // botaoHome.style.display = "none";
+            // botaoHomeMC.style.display = "inline-block";
+            iconesME.forEach(elementoIconesME => {
+                elementoIconesME.style.display = "none";
+            });
+            iconesMC.forEach(elementoIconesMC => {
+                elementoIconesMC.style.display = "inline-block";
+            });
+            h1.forEach(elementoh1 => {
+                elementoh1.classList.add("Letra-MClaro");
+            });
+            p.forEach(elementop => {
+                elementop.classList.add("Letra-MClaro");
+            });
+        } else {
+            ligado.style.display = "none";
+            desligado.style.display = "block";
+            sectionPrimeiraParte.classList.remove("fundoClaro");
+            console.style.display = "inline-block";
+            consoleMC.style.display = "none";
+            nav.style.backgroundColor = "#363232";
+            // botaoHome.style.display = "inline-block";
+            // botaoHomeMC.style.display = "none";
+            iconesME.forEach(elementoIconesME => {
+                elementoIconesME.style.display = "inline-block";
+            });
+            iconesMC.forEach(elementoIconesMC => {
+                elementoIconesMC.style.display = "none";
+            });
+            h1.forEach(elementoh1 => {
+                elementoh1.classList.remove("Letra-MClaro");
+            });
+    
+            p.forEach(elementop => {
+                elementop.classList.remove("Letra-MClaro");
+            });
+        }
+    }
+
+
 });
